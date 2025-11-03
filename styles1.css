@@ -1,0 +1,30 @@
+h1 {text-align: left; color: rgb(174, 24, 81); font-size: 36px; font-family:"Arial Black", "Helvetica Bold", sans-serif; }
+h2 {text-align: left; color: rgb(174, 24, 81); font-family:"Arial Black", "Helvetica Bold", sans-serif; }
+body { color: #222; background: #eab1c2; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif }
+
+.card { background: white; padding: 16px; margin: 16px 0; border: 1px solid #ddd; border-radius: 8px; }
+.card1 { background: white; padding: 16px; margin: 16px 0; border: 1px solid #ddd; border-radius: 8px; }
+.nav { display: flex; gap: 12px }
+.nav a { padding: 8px 12px; background: #f4d3d3; text-decoration: none; border-radius: 6px; color:rgb(71, 71, 129)}
+
+a:hover {
+  background-color:rgb(71, 71, 129);
+  color:#f4d3d3
+} 
+
+img {
+  display: block;
+  margin: 20px auto; 
+  border-radius: 12px;  
+}
+
+@media (max-width: 600px) {
+  .nav { flex-direction: column; }
+}
+
+body.dark { background: #111; color: #eee; }
+body.dark .card { background: #111; border: 1px solid #eee; }
+body.dark .card1 { background: #111; border: 1px solid #eee; }
+body.dark .nav a { background: #eee; color: #111; }
+body.dark h1, body.dark h2 { color: #f4d3d3; }
+body.dark a:hover { background-color: #f4d3d3; color: rgb(71, 71, 129); }
